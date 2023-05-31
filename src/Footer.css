@@ -1,0 +1,89 @@
+.footer {
+    background: rgb(0, 101, 219);
+    background: linear-gradient(90deg, rgb(0,101,219) 40%, rgba(0,212,255) 100%);
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ccc;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-social a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-social a:hover {
+    color: #ccc;
+  }
+  
+  .footer-subscribe {
+    margin-bottom: 20px;
+  }
+  
+  .footer-subscribe h4 {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .footer-subscribe form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-subscribe input[type="email"] {
+    width: 200px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .footer-subscribe button {
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #0f62fe;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-subscribe button:hover {
+    background-color: #0048c5;
+  }
+  
+  .footer-bottom {
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  
